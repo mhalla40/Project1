@@ -282,10 +282,18 @@ h2 {
         height: 200px;
         margin-top: 10px;
     }
+
+    .trio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
      
      .title1 {
-         margin-left: 15px;
          width: 200px;
+         margin-left: 0px;
+         
      }
      
      .title2 {
@@ -294,7 +302,7 @@ h2 {
      
      .title3 {
          width: 200px;
-         margin-right: auto;
+         
      }
      
      .thumb {
@@ -303,25 +311,21 @@ h2 {
      }
 
      .gram {
-        display: grid;
-        grid-template-rows: 100px 100px 1500px 50px 100px 100x  ;
-        grid-template-columns: 100px 100px 50px 50px 100px 100px 50px 50px;
-        justify-content: space-evenly;
-        margin-right: 10px;
-        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        
            
     }
     
     .first {
-        width: 180px;
+        width: 200px;
         height: 365px;
-        grid-row: 2 / span 4;
-        grid-column: 2 / span 5;
+        
         
     }
     
     .second {
-        width: 100px;
+        width: 150px;
         height: 150px;
         grid-row: 2 /span 2;
         grid-column: 5 /span 3;
@@ -329,7 +333,7 @@ h2 {
     }
     
     .third {
-        width: 100px;
+        width: 150px;
         height: 150px;
         grid-row: 4 /span 3;
         grid-column: 5 /span 2;
@@ -337,14 +341,14 @@ h2 {
     }
     
     .fourth {
-        width: 100px;
+        width: 150px;
         height: 150px;
         grid-row: 2 /span 2;
         grid-column: 6 / span 2;
     }
     
     .fifth {
-        width: 100px;
+        width: 150px;
         height: 150px;
         grid-row: 4 /span 2;
         grid-column: 6 /span 2;
